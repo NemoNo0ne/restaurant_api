@@ -31,8 +31,20 @@ pip install -r requirements.txt
 
 ### 3. Применение миграций и запуск сервера
 
-```python manage.py migrate```
-```python manage.py runserver```
+```
+python manage.py migrate
+```
+```
+python manage.py runserver
+```
 
 ### 4. Получение списка категорий с блюдами
-```http://127.0.0.1:8000/api/v1/foods/```
+```
+http://127.0.0.1:8000/api/v1/foods/
+```
+
+### Так же просто так добавил Swagger
+Документация доступна после запуска сервера по адресу:
+```
+http://127.0.0.1:8000/swagger/
+```
